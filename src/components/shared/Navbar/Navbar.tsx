@@ -131,11 +131,11 @@ const Navbar = () => {
                 >
                   <Link
                     href={href || "#"}
-                    className="w-full bg-transparent hover:bg-[#00cdf2] flex items-center justify-center text-lg rounded-md duration-200 text-white uppercase whitespace-nowrap"
+                    className="w-full bg-transparent hover:bg-[#00cdf2] flex items-center justify-center text-lg rounded-md duration-200 text-white uppercase whitespace-nowrap px-1"
                   >
                     {label}
                     {dropdownItems && (
-                      <FiChevronDown className="ml-2 group-hover:rotate-180 transition-transform duration-200" />
+                      <FiChevronDown className="ml-1 group-hover:rotate-180 transition-transform duration-200" />
                     )}
                   </Link>
                   {dropdownItems && isDropdownOpen && (
