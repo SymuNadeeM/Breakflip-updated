@@ -1,4 +1,4 @@
-import GuidesImage from "../assets/blog/latest-guide-image.png";
+import GuidesImage from "../assets/blog/latest-image.svg";
 
 export const latestGuides = [
   {
