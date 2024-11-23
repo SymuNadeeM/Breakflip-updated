@@ -78,7 +78,9 @@ const NavSmall: React.FC = () => {
             </div>
           </div>
           <div>
-            <Image src={logoSm} alt="logoSm" className="h-[27px] w-[148px]" />
+            <Link href={"/"}>
+              <Image src={logoSm} alt="logoSm" className="h-[27px] w-[148px]" />
+            </Link>
           </div>
           <div className="menubar-sm cursor-pointer" onClick={toggleMenu}>
             <RiMenuSearchLine size={36} />

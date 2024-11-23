@@ -89,7 +89,10 @@ const Navbar = () => {
           </div>
           {/* center of header 1st */}
           <div className="flex items-center justify-center">
-            <Image src={logo} alt="logo" className="w-[286px] h-[54px]" />
+            <Link href={"/"}>
+              {" "}
+              <Image src={logo} alt="logo" className="w-[286px] h-[54px]" />
+            </Link>
           </div>
           {/* right of header 1st */}
           <div className="flex items-center justify-end">
