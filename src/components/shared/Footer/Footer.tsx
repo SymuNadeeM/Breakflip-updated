@@ -9,7 +9,7 @@ import youtube from "../../../assets/social_youtube-footer.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#17181c] relative">
+    <footer className="bg-[#17181c]">
       <div className="max-w-[980px] mx-auto">
         <section className="w-full pt-10 flex items-center justify-center xl:justify-start">
           <div className="flex flex-col md:flex-row items-center gap-5 lg:gap-10">
@@ -109,11 +109,6 @@ const Footer = () => {
             </div>
           </div>
         </section>
-      </div>
-      <div className="absolute bottom-1 left-2">
-        <button className="bg-white px-2.5 py-1 rounded-full text-black text-sm flex items-center justify-center">
-          Cookies
-        </button>
       </div>
     </footer>
   );

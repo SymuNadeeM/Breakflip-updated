@@ -30,6 +30,11 @@ export default function RootLayout({
         </div>
         {children}
         <Footer />
+        <div className="fixed bottom-1 left-2">
+          <button className="bg-white px-2.5 py-1 rounded-full text-black text-sm flex items-center justify-center">
+            Cookies
+          </button>
+        </div>
       </body>
     </html>
   );
