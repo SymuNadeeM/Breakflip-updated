@@ -32,7 +32,7 @@ const DiscoverServiceCard: React.FC<DiscoverServiceCardProps> = ({
       <Image
         src={image}
         alt="card image"
-        className="h-[175px] rounded-tl-xl rounded-bl-xl"
+        className="w-full md:w-auto md:h-[175px] rounded-tl-xl rounded-tr-xl md:rounded-tr-none md:rounded-bl-xl"
       />
 
       <div className="bg-[#33343c] w-full px-2 pt-2 pb-2 xl:pt-5 lg:pb-2 xl:px-6 flex flex-col justify-between md:rounded-tr-xl md:rounded-br-xl space-y-2 md:space-y-0">

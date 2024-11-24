@@ -1,4 +1,5 @@
 import latestImage from "../assets/blog/latest-image.svg";
+// import latestImage from "../assets/delete-me.jpg";
 
 export const latestNews = [
   {
