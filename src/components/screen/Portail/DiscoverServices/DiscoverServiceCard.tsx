@@ -19,7 +19,7 @@ const DiscoverServiceCard: React.FC<DiscoverServiceCardProps> = ({
 }) => {
   return (
     <div className="flex flex-col md:flex-row md:h-[175px] relative">
-      <div className="absolute left-[10px] top-[145px] flex items-center gap-[7px]">
+      <div className="absolute left-[10px] top-[45%] sm:top-[68%] md:top-[145px] flex items-center gap-[7px]">
         {tags.map((tag, index) => (
           <div
             key={index}
